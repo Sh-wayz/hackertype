@@ -1,9 +1,10 @@
+#!/usr/bin/python
 import argparse
 from curses import *
 import os
 parser = argparse.ArgumentParser(
     prog='hacktype',
-    description='A python rewrite of hackertyper.com for terminal.'
+    description='A CLI tool for making yourself look cool to dumb people.'
 )
 
 
@@ -16,7 +17,6 @@ args = parser.parse_args()
 s=initscr()
 noecho()
 start_color()
-
 
 #default values:
 try:
@@ -48,4 +48,4 @@ with open(file) as filetoread:
 
 echo()
 endwin()
-#os.system('stty onlcr')
+os.system('clear')
