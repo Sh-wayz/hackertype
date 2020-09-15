@@ -18,7 +18,6 @@ s=initscr()
 noecho()
 start_color()
 
-
 #default values:
 try:
     fgcolor = int(args.fgc)
