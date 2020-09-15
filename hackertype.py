@@ -28,14 +28,14 @@ try:
 except:
     bgcolor = COLOR_BLACK
 try:
-    filepath = args.filepath
+    filepath = args.file
 except:
     file = __file__
 
 
 #Main function:
 init_pair(2,fgcolor,bgcolor)
-with open(file) as filetoread:
+with open(filepath) as filetoread:
     for x in filetoread.read().split(" "):
         s.getch()
         try:
