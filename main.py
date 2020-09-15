@@ -4,7 +4,7 @@ from curses import *
 import os
 parser = argparse.ArgumentParser(
     prog='hacktype',
-    description='A python rewrite of hackertyper.com for terminal.'
+    description='A CLI tool for making yourself look cool to dumb people.'
 )
 
 
