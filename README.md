@@ -1,5 +1,6 @@
 # HackerType
 HackerType is  CLI application that makes you look cool to script kiddies.
+## HackerType is only available on linux right now, if you have a problem with that submit a pull request with whatever changes need to be made(If any)
 ## Installation
 ```bash
 git clone https://github.com/Sh-wayz/hackertype
