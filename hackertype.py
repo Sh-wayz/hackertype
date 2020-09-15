@@ -48,4 +48,4 @@ with open(file) as filetoread:
 
 echo()
 endwin()
-os.system('clear')
+#os.system('stty onlcr')
