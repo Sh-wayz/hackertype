@@ -3,7 +3,7 @@ import argparse
 from curses import *
 import os
 parser = argparse.ArgumentParser(
-    prog='hacktype',
+    prog='hackertype',
     description='A CLI tool for making yourself look cool to dumb people.'
 )
 
@@ -27,25 +27,32 @@ try:
     bgcolor = int(args.bgc)
 except:
     bgcolor = COLOR_BLACK
-try:
-    filepath = args.file
-except:
-    file = __file__
 
+filepath = args.file
+
+if filepath == None:
+    filepath = __file__
+
+print(filepath)
 
 #Main function:
-init_pair(2,fgcolor,bgcolor)
-with open(filepath) as filetoread:
-    for x in filetoread.read().split(" "):
-        s.getch()
-        try:
-            s.addstr(str(x)+" ",color_pair(2))
-        except:
-            s.erase()
-            s.addstr(str(x)+" ",color_pair(2))
+try:
+    init_pair(2,fgcolor,bgcolor)
+    with open(filepath) as filetoread:
+        for x in filetoread.read().split(" "):
+            s.getch()
+            try:
+                s.addstr(str(x)+" ",color_pair(2))
+            except:
+                s.erase()
+                s.addstr(str(x)+" ",color_pair(2))
 
 
 
-echo()
-endwin()
-os.system('clear')
+    echo()
+    endwin()
+    os.system('clear')
+except:
+    echo()
+    endwin()
+    os.system('clear')
