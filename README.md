@@ -12,9 +12,7 @@ git clone https://github.com/Sh-wayz/hackertype
 
 cd hackertype
 
-chmod +x hackertype.py
-
-./hackertype.py <args>
+python3 hacktype.py <args>
 ```
 
 ## Usage
