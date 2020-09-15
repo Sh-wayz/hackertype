@@ -1,15 +1,18 @@
 # HackerType
 HackerType is  CLI application that makes you look cool to script kiddies.
 ## HackerType is only available on linux right now, if you have a problem with that submit a pull request with whatever changes need to be made(If any)
+## Cool features
+
+ - Custom foreground and background colors.
+ - If no filepath is specified to read from, it reads its own code.
+ - Made by me.
 ## Installation
 ```bash
 git clone https://github.com/Sh-wayz/hackertype
 
 cd hackertype
 
-chmod +x hackertype.py
-
-./hackertype.py <args>
+python3 hacktype.py <args>
 ```
 
 ## Usage
