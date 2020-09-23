@@ -1,6 +1,6 @@
 # HackerType
 HackerType is  CLI application that makes you look cool to script kiddies.
-## HackerType is only available on linux right now, I will fix that when i can.
+## HackerType is only fully available on linux right now, I will fix that when i can.
 ## Cool features
 
  - Custom foreground and background colors.
