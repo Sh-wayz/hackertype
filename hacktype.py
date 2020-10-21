@@ -33,7 +33,7 @@ filepath = args.file
 if filepath == None:
     filepath = __file__
 
-print(filepath)
+#print(filepath) Debug only
 
 #Main function:
 try:
