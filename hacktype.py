@@ -51,8 +51,8 @@ try:
 
     echo()
     endwin()
-    os.system('cls')# if you use this branch your OS sucks ass
+    os.system('clear')
 except:
     echo()
     endwin()
-    os.system('cls')
+    os.system('clear')
